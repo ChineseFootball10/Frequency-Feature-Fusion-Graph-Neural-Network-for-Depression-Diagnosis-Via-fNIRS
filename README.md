@@ -51,4 +51,6 @@ If use gpu for training, you should assign "devices" in pl.Trainer() function.
 ## 3) To train baseline machine learning models, please run script
     python train_eval_ml_baselines.py
 
+All of our training protocal and results reported in our paper follow k(k=4)-folds cross validation as baseline models to promote reliability.
+
 
