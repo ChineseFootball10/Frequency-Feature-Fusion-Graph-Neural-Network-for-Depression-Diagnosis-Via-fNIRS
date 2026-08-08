@@ -21,7 +21,7 @@ from torch.utils.data import DataLoader
 import pytorch_lightning as pl
 from sklearn.model_selection import StratifiedShuffleSplit
 
-from preprocess.utils import Depression
+from datasets.fnirs import Depression
 
 resting = False
 if resting:
