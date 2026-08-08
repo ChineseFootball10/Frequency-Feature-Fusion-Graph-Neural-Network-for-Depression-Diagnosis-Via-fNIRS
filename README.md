@@ -1,5 +1,6 @@
 # Frequency-Feature-Fusion-Graph-Neural-Network-for-Depression-Diagnosis-Via-fNIRS
 Official implementation of paper 'Frequency Feature Fusion Graph Neural Network for Depression Diagnosis Via fNIRS'.
+
 Chengkai Yang, Xingping Dong, Xiaofen Zong, Mang Ye
 
 News
