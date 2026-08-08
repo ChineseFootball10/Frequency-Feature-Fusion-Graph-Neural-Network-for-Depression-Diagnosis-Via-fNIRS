@@ -34,6 +34,9 @@ We strongly recommend installing torch_geometric, torch cluster, torch_scatter, 
         |   |--|--P2.mat
         |   |--|--...
         |   |--nFIRS.xlsx
+VFT: Verbal Fluency Task
+N_group: Normal group sample dir. (Health care group)
+P_group: Patient group sample dir. (Patient group)
 ## 2) Preprocess raw fNIRS .mat data
     python preprocess/preprocess_vft.py -c configs/preprocess_dataset.yml -r xxx -d xxx
 This operation preprocesses frequency feature of TGCN brain channel nodes and edges.
