@@ -7,5 +7,6 @@ News
 
 Installation
 ============
-# 1) Clone
+## 1) Clone
+    git clone
 
