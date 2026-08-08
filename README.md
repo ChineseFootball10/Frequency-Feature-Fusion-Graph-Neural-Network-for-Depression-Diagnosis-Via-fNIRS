@@ -7,7 +7,7 @@ News
 
 Motivation
 ==========
-![](https://github.com/ChineseFootball10/Frequency-Feature-Fusion-Graph-Neural-Network-for-Depression-Diagnosis-Via-fNIRS/assets/motivation.pdf)
+![](https://github.com/ChineseFootball10/Frequency-Feature-Fusion-Graph-Neural-Network-for-Depression-Diagnosis-Via-fNIRS/blob/main/assets/motivation.pdf)
 
 Installation
 ============
