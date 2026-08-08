@@ -176,7 +176,7 @@ if __name__ == '__main__':
             # Training
             tensorboard_logger = TensorBoardLogger(save_dir='./',name='result', version=fold_id)
             trainer = pl.Trainer(max_epochs=epochs,devices=[2], strategy='ddp_find_unused_parameters_true', accelerator='gpu', logger=tensorboard_logger, callbacks=call_backs)
-            trainer = pl.Trainer(max_epochs=epochs, accelerator='cpu',logger=tensorboard_logger, callbacks=call_backs)
+            # trainer = pl.Trainer(max_epochs=epochs, accelerator='cpu',logger=tensorboard_logger, callbacks=call_backs)
             trainer.fit(model, train_loader, test_loader)
 
             # If you would like to load checkpoint to validate, please use trainer.validate() function.
