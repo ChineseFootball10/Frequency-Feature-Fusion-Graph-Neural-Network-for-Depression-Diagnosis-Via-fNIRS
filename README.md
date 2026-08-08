@@ -17,7 +17,9 @@ News
     conda create -n fnirs python=3.8 -y
     conda activate fnirs
     pip install -r requirements.txt
-We strongly recommend installing torch_geometric, torch cluster, torch_scatter, torch_sparse, torch_spline_conv by wheels in https://data.pyg.org/whl/ corresponding your cuda version and pytorch version.
+
+We strongly recommend installing torch_geometric, torch cluster, torch_scatter, torch_sparse, torch_spline_conv by wheels in https://data.pyg.org/whl/ corresponding to your cuda version and pytorch version.
+
 🔢 Dataset Preparing
 =================
 ## 1) Put fNIRS .mat files under /data folders.
